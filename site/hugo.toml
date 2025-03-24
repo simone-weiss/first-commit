@@ -1,0 +1,71 @@
+baseURL = "https://yoursite.github.io"
+title = "my blog"
+author = "Your Name"
+copyright = "Your Name"
+pagination.pagerSize = 10
+languageCode = "en"
+theme = "tailwind"
+enableRobotsTXT = true
+enableEmoji = true
+
+[markup]
+  _merge = "deep"
+
+[params]
+  keywords = "some, keywords, here"
+  subtitle = "blog subtitle"
+  contentTypeName = "posts"
+  showAuthor = true
+
+  [params.author]
+  name = "Your Name"
+  email = "user@example.com"
+
+  [params.header]
+    logo = "logo.svg"
+    title = " site title"
+
+  [params.footer]
+    since = 2025
+    poweredby = true
+
+    [[params.social_media.items]]
+      enabled = true
+      title = 'Bluesky'
+      icon = 'brand-bluesky'
+      link = 'https://bsky.app/profile/yourname.bsky.social'
+  
+    [[params.social_media.items]]
+      enabled = true
+      title = 'LinkedIn'
+      icon = 'brand-linkedin'
+      link = 'https://www.linkedin.com/in/yourname'
+  
+    [[params.social_media.items]]
+      enabled = true
+      title = 'Github'
+      icon = 'brand-github'
+      link = 'https://github.com/yourname'
+
+[menu]
+
+  [[menu.main]]
+    identifier = "post"
+    name = "Posts"
+    pageRef = "/posts"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    pageRef = "/about"
+    weight = 20
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
