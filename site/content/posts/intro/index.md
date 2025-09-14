@@ -1,18 +1,18 @@
 +++
-title = "Building and hosting your own Hugo blog on GitHub"
-date = "2025-03-12"
-description = "A guide to building and hosting a basic blog using Hugo on your personal GitHub account and GitHub Pages"
+title = "My first contribution too..."
+date = "2025-09-12"
+description = "A blog about how I experienced first contributions to all kind of Open Source Software"
 tags = [
     "hugo",
     "blog",
-    "github",
-    "github-pages",
+    "open source",
+    "contributions",
 ]
 categories = [
     "hugo",
 ]
 series = ["Hugo"]
-image = "images/hugo-title.svg"
+image = "images/morgenleite.png"
 +++
 
 ## Blog header

@@ -1,7 +1,7 @@
-baseURL = "https://yoursite.github.io"
-title = "my blog"
-author = "Your Name"
-copyright = "Your Name"
+baseURL = "https://komenga.testhu.github.io"
+title = "First Commit to..."
+author = "Simone Weiß"
+copyright = "Simone Weiß"
 pagination.pagerSize = 10
 languageCode = "en"
 theme = "tailwind"
@@ -13,39 +13,33 @@ enableEmoji = true
 
 [params]
   keywords = "some, keywords, here"
-  subtitle = "blog subtitle"
+  subtitle = "Tales from my first contributions to all kind of Open Source Software"
   contentTypeName = "posts"
   showAuthor = true
 
   [params.author]
-  name = "Your Name"
-  email = "user@example.com"
+  name = "Simone Weiß"
+  email = "simone.p.weiss@posteo.com"
 
   [params.header]
     logo = "logo.svg"
-    title = " site title"
+    title = " A first contribution to..."
 
   [params.footer]
     since = 2025
     poweredby = true
-
-    [[params.social_media.items]]
-      enabled = true
-      title = 'Bluesky'
-      icon = 'brand-bluesky'
-      link = 'https://bsky.app/profile/yourname.bsky.social'
   
-    [[params.social_media.items]]
+  [[params.social_media.items]]
       enabled = true
       title = 'LinkedIn'
       icon = 'brand-linkedin'
-      link = 'https://www.linkedin.com/in/yourname'
+      link = 'https://www.linkedin.com/in/simone-wei%C3%9F-954b641a4/'
   
     [[params.social_media.items]]
       enabled = true
       title = 'Github'
       icon = 'brand-github'
-      link = 'https://github.com/yourname'
+      link = 'https://github.com/simone-weiss'
 
 [menu]
 
