@@ -37,7 +37,7 @@ how a first contribution to this project went for me.
 Now my first Challenge for this blog was to find a Framework and a Place
 for it. It was after some thoughts clear to me that I will use a static
 Framework and deploy it via github pages. After some research I have
-found multiple options to aid me there, including Hugo (see here
+found multiple options to aid me there, including Hugo (see here 
 https://github.com/gohugoio/). Their repositories at least contained the
 label "good first issue" so I thought why not kick it of here with a
 Contribution to the framework I will use. (See those issues here https://github.com/gohugoio/hugo/issues?q=is%3Aissue%20state%3Aopen%20label%3AGoodFirstIssue).
