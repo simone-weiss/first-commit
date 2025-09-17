@@ -12,7 +12,7 @@ enableEmoji = true
   _merge = "deep"
 
 [params]
-  keywords = "some, keywords, here"
+  keywords = "OSS, contributing"
   subtitle = "Tales from my first contributions to all kind of Open Source Software"
   contentTypeName = "posts"
   showAuthor = true
